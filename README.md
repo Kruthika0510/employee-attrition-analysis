@@ -12,25 +12,35 @@ The analysis includes:
 
 ## Setup and Installation
 
-1. Install the required packages:
+1. Clone the repository:
+```bash
+git clone https://github.com/Kruthika0510/employee-attrition-analysis.git
+cd employee-attrition-analysis
+```
+
+2. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Ensure the HR dataset (HRcommasep1603576336980.zip) is in the root directory
-
-3. Run the analysis:
+3. Run the Streamlit app:
 ```bash
-python employee_attrition_analysis.py
+python -m streamlit run app.py
 ```
+
+4. Open the app in your web browser:
+- The app will be available at http://localhost:8501
 
 ## Output
 
-The script generates several visualization files:
-- satisfaction_hours_relationship.png: Scatter plot showing relationship between satisfaction and working hours
-- department_analysis.png: Bar chart showing department-wise attrition rates
-- promotion_salary_analysis.png: Analysis of promotion and salary distribution
-- feature_importance.png: Feature importance plot from the machine learning model
+The dashboard includes:
+- Interactive visualizations
+- Dataset overview
+- Satisfaction vs working hours analysis
+- Department-wise attrition rates
+- Salary and promotion analysis
+- Machine learning model results
+- Key insights and recommendations
 
 ## Model Details
 
